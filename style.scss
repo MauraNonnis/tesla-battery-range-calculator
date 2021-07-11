@@ -378,6 +378,12 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    .options-container {
+        width: 70%;
+    }
+}
+
 @media only screen and (min-width: 620px) {
     .description-container {
         width: 90%;
@@ -412,7 +418,6 @@ h1 {
             }
         }
     }
-   
 
     #toggle:checked + .menu {
         display: block !important;
@@ -426,6 +431,39 @@ h1 {
 
     #toggle:checked + .menu-item {
         margin: 1em 0;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .hero-image {
+        background-position: 40% 50%;
+    }
+
+    .option-container {
+        width: 40%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .speed-title {
+        margin-left: .8em;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+
+    .option-container {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .speed-title {
+        margin-left: .8em;
     }
 }
 
