@@ -492,15 +492,17 @@ h1 {
         padding: .4em;
         font-weight: 500;
     }
-
-    
-
     .bottom-description {
         width: 70%;
     }
 }
 
 @media only screen and (min-width: 1000px) {
+    .option-container {
+        width: 30%;
+        margin: 0;
+    }
+
     footer {
         display: flex;
         font-size: smaller;
